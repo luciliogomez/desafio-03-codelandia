@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <title>One Page - Home</title>
+</head>
+<body>
+    <section class="banner container">
+        <div class="text-content">
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ab. 
+                Exercitationem libero labore ad 
+            </p>
+            <a href="#" class="btn">Botão</a>
+        </div>
+        <div class="picture">
+            <figure>
+                <img src="assets/img/image.svg" alt="One Page logo">
+            </figure>
+        </div>
+    </section>
+
+    <section class="artigos  container">
+
+        <div class="card">
+            <div class="card-image bg-red">
+
+            </div>
+            <div class="card-content">
+                <h4>Título do Card</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    labore rem exercitationem eum quisquam cum nihil
+                </p>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="card-image bg-yellow"></div>
+            <div class="card-content">
+                <h4>Título do Card</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    labore rem exercitationem eum quisquam cum nihil
+                </p>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="card-image bg-aqua"></div>
+            <div class="card-content">
+                <h4>Título do Card</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    labore rem exercitationem eum quisquam cum nihil
+                </p>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image bg-blue"></div>
+            <div class="card-content">
+                <h4>Título do Card</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    labore rem exercitationem eum quisquam cum nihil
+                </p>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image bg-green"></div>
+            <div class="card-content">
+                <h4>Título do Card</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    labore rem exercitationem eum quisquam cum nihil
+                </p>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image bg-pink"></div>
+            <div class="card-content">
+                <h4>Título do Card</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    labore rem exercitationem eum quisquam cum nihil
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="formulario container">
+        <h3>Entre em contacto</h3>
+        <form action="#" method="post">
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="E-mail">
+            <input type="text" placeholder="Telefone">
+            <textarea name="mensagem" 
+            id="" cols="30" rows="5" placeholder="Mensagem..."></textarea>
+            <button type="button" class="btn">Enviar Mensagem</button>
+        </form>
+    </section>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            origin: 'bottom',
+            distance: '50px',
+            duration: 1500,
+            reset: false
+        });
+
+        ScrollReveal().reveal('.card', { delay: 100 });
+        ScrollReveal().reveal('.card-content', { delay: 300 });
+        ScrollReveal().reveal('.formulario', { delay: 300 });
+        
+    </script>
+</body>
+</html>
